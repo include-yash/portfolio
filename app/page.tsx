@@ -197,10 +197,19 @@ export default function YashSinghPortfolio() {
                   }`}
                 >
                   <h3 className={`text-lg font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>AI Intern</h3>
-                  <p className="text-blue-500 mb-2">Next Oar • May 2025</p>
-                  <p className={`text-sm ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
-                    As an AI Intern at Next Oar, I developed a multi-layered relevance framework on top of vector databases to improve semantic retrieval precision in RAG systems. This involved designing relevance scoring logic that combines dense and sparse embeddings for context-aware results. I also contributed to the architecture of MCP (Model Control Protocol) servers, enabling modular, scalable deployment of AI services across distributed environments.
-                  </p>
+                  <p className="text-blue-500 mb-2">Nextoar • May 2025</p>
+                                <ul className={`text-sm list-disc pl-5 ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
+                <li>
+                  Developed a multi-layered relevance framework over vector databases to enhance semantic retrieval accuracy in Retrieval-Augmented Generation (RAG) systems.
+                </li>
+                <li>
+                  Designed custom relevance scoring logic that intelligently combines dense and sparse embeddings for improved context-aware results.
+                </li>
+                <li>
+                  Contributed to the architecture of MCP (Model Control Protocol) servers, supporting modular and scalable deployment of AI services across distributed environments.
+                </li>
+              </ul>
+
                 </div>
               </div>
             </section>
@@ -631,7 +640,7 @@ export default function YashSinghPortfolio() {
               <CardContent className="space-y-3 text-sm">
                 <div className="flex justify-between items-center">
                   <span className={`font-medium ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>Current Role:</span>
-                  <span className="text-blue-500">AI Intern at Next Oar</span>
+                  <span className="text-blue-500">AI Intern at Nextoar</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className={`font-medium ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>Education:</span>
