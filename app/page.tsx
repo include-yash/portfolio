@@ -42,7 +42,7 @@ function LoadingAnimation({ isDark }: { isDark: boolean }) {
             {/* Left branch of Y */}
             <path
               d="M20 20 L64 64"
-              stroke="#3b82f6"
+              stroke="#000000"
               strokeWidth="6"
               strokeLinecap="round"
               fill="none"
@@ -54,7 +54,7 @@ function LoadingAnimation({ isDark }: { isDark: boolean }) {
             {/* Right branch of Y */}
             <path
               d="M108 20 L64 64"
-              stroke="#3b82f6"
+              stroke="#000000"
               strokeWidth="6"
               strokeLinecap="round"
               fill="none"
@@ -67,7 +67,7 @@ function LoadingAnimation({ isDark }: { isDark: boolean }) {
             {/* Stem of Y */}
             <path
               d="M64 64 L64 108"
-              stroke="#3b82f6"
+              stroke="#000000"
               strokeWidth="6"
               strokeLinecap="round"
               fill="none"
@@ -87,9 +87,9 @@ function LoadingAnimation({ isDark }: { isDark: boolean }) {
         <div className="mt-8 text-center">
           
           <div className="flex justify-center space-x-1">
-            <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"></div>
-            <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></div>
-            <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
+            <div className="w-2 h-2 bg-black rounded-full animate-bounce"></div>
+            <div className="w-2 h-2 bg-black rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></div>
+            <div className="w-2 h-2 bg-black rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
           </div>
         </div>
       </div>
